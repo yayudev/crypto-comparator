@@ -1,0 +1,24 @@
+.login {
+  transition: var(--default-transition);
+  box-shadow: var(--background-shadow);
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  color: var(--secondary-text);
+  padding: 1rem;
+}
+
+.login-title {
+  font-weight: lighter;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.login-error {
+  color: var(--red-color);
+}
+
+.login-submit-button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}

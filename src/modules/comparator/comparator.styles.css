@@ -1,0 +1,50 @@
+.comparator-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.comparator-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.comparator-tabs-item {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 100%;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  color: var(--secondary-text);
+  transition: var(--default-transition);
+  box-shadow: var(--background-shadow);
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+}
+
+.comparator-tabs-item:active,
+.comparator-tabs-item:hover {
+  background: var(--card-background-active);
+}
+
+.comparator-tabs-item.active {
+  background-color: green;
+  color: white;
+}

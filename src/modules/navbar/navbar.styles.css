@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar-user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 1rem 0;
+}
+
+.navbar-user-name {
+  color: var(--white-color);
+}
+
+.navbar-user-email {
+  color: var(--gray-text);
+}
+
+.navbar-user-logout-button {
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--link-color);
+  font-size: 1.1rem;
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.navbar-user-logout-button:hover {
+  background: var(--link-hover-bg-color);
+}

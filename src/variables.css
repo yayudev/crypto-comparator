@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --bg-color: linear-gradient(
+    242.44deg,
+    #56b8d7 7.65%,
+    rgba(163, 145, 233, 0.507854) 63.1%,
+    rgba(172, 183, 219, 0.507456) 94.91%
+  );
+  --primary-text: #4b4a4a;
+  --secondary-text: rgba(97, 96, 96, 1);
+  --white-color: #fff;
+  --gray-text: #e2e2e2;
+  --green-color: rgba(68, 176, 124, 1);
+  --red-color: rgba(236, 99, 99, 1);
+  --link-color: rgba(236, 99, 99, 1);
+  --link-hover-bg-color: rgba(255, 255, 255, 0.2);
+  --card-background: rgba(248, 248, 248, 0.4);
+  --card-background-active: rgba(248, 248, 248, 0.6);
+
+  /* Boxes */
+  --border-radius: 0.5rem;
+  --background-shadow: 2px 4px 8px -1px rgba(0, 0, 0, 0.25);
+  --content-width: 80%;
+
+  /* Transitions */
+  --default-transition: 200ms ease-in-out;
+}

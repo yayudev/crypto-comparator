@@ -1,0 +1,34 @@
+.convertion-tool {
+  margin-top: 2rem;
+  width: 100%;
+  color: var(--primary-text);
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--background-shadow);
+  padding: 1rem;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.convertion-tool-input-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 15rem;
+}
+
+.convertion-tool-title {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.convertion-tool-input {
+  font-size: 1.25rem;
+}
+
+.convertion-tool-results {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}

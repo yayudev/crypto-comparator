@@ -1,13 +1,60 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-color);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+input {
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--primary-text);
+  background-color: var(--card-background);
+  transition: var(--default-transition);
+}
+
+input:active,
+input:focus-visible {
+  outline-color: var(--primary-text);
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 100%;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  color: var(--secondary-text);
+  transition: var(--default-transition);
+  box-shadow: var(--background-shadow);
+  background: var(--card-background);
+  border-radius: var(--border-radius);
 }
