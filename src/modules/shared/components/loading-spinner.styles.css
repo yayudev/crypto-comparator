@@ -1,0 +1,26 @@
+.loading-spinner {
+  display: inline-block;
+  width: 5rem;
+  height: 15rem; /* 5 height + 5 margin x2  */
+}
+
+.loading-spinner:after {
+  content: " ";
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: 5rem 1rem;
+  border-radius: 50%;
+  border: 6px solid var(--white-color);
+  border-color: var(--white-color) transparent var(--white-color) transparent;
+  animation: spin-animation 1.2s linear infinite;
+}
+
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

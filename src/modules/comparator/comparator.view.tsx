@@ -12,7 +12,7 @@ import {
 import "./comparator.styles.css";
 import { UserContext } from "../shared/user.context";
 
-const RATE_UPDATE_INTERVAL = 1000 * 5; // 15 seconds
+const RATE_UPDATE_INTERVAL = 1000 * 15; // 15 seconds
 
 export function Comparator() {
   const { user } = useContext(UserContext);
@@ -34,12 +34,12 @@ export function Comparator() {
   // Then fetch data every 15 seconds
   useInterval(getData, RATE_UPDATE_INTERVAL);
 
-  if (!user) {
-    navigate("/");
+  if (!selectedCoin || !AVAILABLE_COINS.includes(selectedCoin)) {
     return null;
   }
 
-  if (!selectedCoin || !AVAILABLE_COINS.includes(selectedCoin)) {
+  if (!user) {
+    navigate("/");
     return null;
   }
 

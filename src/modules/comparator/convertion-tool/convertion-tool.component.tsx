@@ -12,6 +12,7 @@ type ConvertionToolProps = {
 
 export function ConvertionTool({ data, selectedCoin }: ConvertionToolProps) {
   const [amount, setAmount] = useState<number | null>();
+  const hasData = Object.keys(data).length > 0;
 
   return (
     <div className="convertion-tool">
@@ -31,6 +32,7 @@ export function ConvertionTool({ data, selectedCoin }: ConvertionToolProps) {
           type="number"
           placeholder="Amount in MXN"
           min={0}
+          disabled={!hasData}
           onChange={(e) => {
             setAmount(parseFloat(e.target.value));
           }}
