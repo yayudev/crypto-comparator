@@ -18,6 +18,20 @@
   color: var(--white-color);
 }
 
+@media screen and (max-width: 992px) {
+  .navbar-user,
+  .navbar-user-info {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-user-name {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .navbar-user-email {
   color: var(--gray-text);
 }

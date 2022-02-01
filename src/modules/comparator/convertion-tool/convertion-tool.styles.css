@@ -1,5 +1,5 @@
 .convertion-tool {
-  margin-top: 2rem;
+  margin: 2rem 0;
   width: 100%;
   color: var(--primary-text);
   background-color: var(--card-background);
@@ -31,4 +31,19 @@
   justify-content: space-around;
   align-items: center;
   flex: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .convertion-tool {
+    margin: 0 0 2rem 0;
+    flex-direction: column;
+  }
+
+  .convertion-tool-input-container {
+    min-width: initial;
+  }
+
+  .convertion-tool-results {
+    flex-direction: column;
+  }
 }

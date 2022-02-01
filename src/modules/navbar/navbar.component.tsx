@@ -11,7 +11,7 @@ export function Navbar() {
         {user && (
           <div className="navbar-user-info">
             <span className="navbar-user-name">
-              Logged in as{" "}
+              <span>Logged in as </span>
               <strong>
                 {user.firstName} {user.lastName}
               </strong>

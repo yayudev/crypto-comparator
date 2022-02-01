@@ -10,7 +10,6 @@ type ComparatorTableProps = {
   };
 };
 
-// Crypto Comparator table component
 export function ComparatorTable({ data }: ComparatorTableProps) {
   const hasData = Object.keys(data).length > 0;
 

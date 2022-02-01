@@ -11,3 +11,9 @@
 .convertion-tool-result-item-exchange {
   color: var(--secondary-text);
 }
+
+@media screen and (max-width: 992px) {
+  .convertion-tool-result-item {
+    margin: 1rem 0;
+  }
+}

@@ -48,3 +48,10 @@
   background-color: green;
   color: white;
 }
+
+@media screen and (max-width: 992px) {
+  .comparator-tabs-item {
+    margin: 0 0.25rem;
+    padding: 0.5rem 1rem;
+  }
+}
