@@ -1,5 +1,8 @@
 # Crypto comparator
 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84d36f09-ffe0-4a11-8452-1e6fca47df74/deploy-status)](https://app.netlify.com/sites/upbeat-cray-2b35de/deploys)
+
 Crypto prices monitoring app created using react and typescript.
 
 Used libraries:
