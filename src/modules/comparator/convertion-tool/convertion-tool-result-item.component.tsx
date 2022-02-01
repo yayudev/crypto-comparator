@@ -15,7 +15,7 @@ export function ConvertionToolResultItem({
   amount,
   selectedCoin,
 }: ConvertionToolResultItemProps) {
-  const convertedAmount = amount === 0 ? 0 : (amount / currentRate).toFixed(10);
+  const convertedAmount = amount === 0 ? 0 : (amount / currentRate).toFixed(8);
 
   return (
     <div className="convertion-tool-result-item">

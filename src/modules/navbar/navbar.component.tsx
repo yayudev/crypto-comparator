@@ -6,7 +6,7 @@ export function Navbar() {
   const { user, setUser } = useContext(UserContext);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" data-testid="navbar">
       <div className="navbar-user">
         {user && (
           <div className="navbar-user-info">

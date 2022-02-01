@@ -42,9 +42,10 @@ Each module/submodule has different files.
 
 ## TODO
 
+- [ ] Add more tests
 - [ ] E2E Tests
-- [ ] Handle errors
-- [ ] Transition animations
+- [ ] Handle error states
+- [ ] Improve login -> comparator animations
 
 ## License
 

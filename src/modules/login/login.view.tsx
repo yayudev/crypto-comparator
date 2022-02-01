@@ -44,7 +44,7 @@ export function Login() {
             data-testid="last-name-input"
             {...register("lastName", { required: true })}
           />
-          {errors.firstName?.type === "required" && (
+          {errors.lastName?.type === "required" && (
             <p className="login-error">Last name is required</p>
           )}
         </div>

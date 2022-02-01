@@ -20,7 +20,7 @@ export type CurrencyDataMap = {
 };
 
 export type ExchangesRateData = {
-  [coin: string]: CurrencyDataMap;
+  [exchange: string]: CurrencyDataMap;
 };
 
 export class CryptoApiService {

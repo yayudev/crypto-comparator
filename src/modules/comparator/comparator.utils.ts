@@ -40,8 +40,16 @@ export type CoinExchangesData = {
  * OUTPUT:
  * {
  *   BTH: {
- *     cryptocompare: [1, 2, 3],
- *     coingecko: [1, 2, 3],
+ *     cryptocompare: [
+ *       { price: 1, date: new Date() },
+ *       { price: 2, date: new Date() },
+ *       { price: 3, date: new Date() },
+ *     ],
+ *     coingecko: [
+ *       { price: 1, date: new Date() },
+ *       { price: 2, date: new Date() },
+ *       { price: 3, date: new Date() },
+ *     ],
  *   },
  *   ETH: {
  *     cryptocompare: [1, 2, 3],
